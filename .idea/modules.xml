@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Formula1.iml" filepath="$PROJECT_DIR$/.idea/modules/Formula1.iml" group="Formula1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/data.iml" group="Formula1/data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" group="Formula1/domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/view/presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/view/presentation.iml" group="Formula1/presentation" />
+    </modules>
+  </component>
+</project>

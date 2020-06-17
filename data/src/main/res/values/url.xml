@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="URL_STAGING">https://demo1160504.mockable.io/</string>
+    <string name="URL_PRODUCTION">https://demo1160504.mockable.io/</string>
+</resources>

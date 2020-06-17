@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Formula1</string>
+
+    <string name="title_widget_card_top">Campeonato 2019</string>
+    <string name="name_widget_card_top">1° %s</string>
+    <string name="point_widget_card_top">%d pts - %s</string>
+
+    <string name="title_position_card_table">Posição</string>
+    <string name="title_point_card_table">Pts</string>
+    <string name="title_pilot_card_table">Piloto</string>
+    <string name="title_team_card_table">Equipe</string>
+    <string name="position_card_table">%sº</string>
+
+    <string name="title_about_more_commom_button">SOBRE</string>
+    <string name="title_term_of_use_more_commom_button">TERMOS DE USO</string>
+    <string name="title_policy_privacidad_commom_button">POLÍTICA DE PRIVACIDADE</string>
+
+</resources>

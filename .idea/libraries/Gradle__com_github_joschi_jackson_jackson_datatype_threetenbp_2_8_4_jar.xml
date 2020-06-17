@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.joschi.jackson:jackson-datatype-threetenbp:2.8.4@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.joschi.jackson/jackson-datatype-threetenbp/2.8.4/cfafb6c04e05b6f57f7321effda144cc2717b8a5/jackson-datatype-threetenbp-2.8.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.joschi.jackson/jackson-datatype-threetenbp/2.8.4/f22a25f3b228dd11b4c41967367f351746639f5a/jackson-datatype-threetenbp-2.8.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.joschi.jackson/jackson-datatype-threetenbp/2.8.4/bdb45cf261f0371301d8c5fb0a92b20994911f8d/jackson-datatype-threetenbp-2.8.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
