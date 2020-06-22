@@ -70,11 +70,11 @@
     <output-test url="file://$MODULE_DIR$/../../../presentation/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../presentation">
-      <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/renderscript_source_output_dir/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/aidl_source_output_dir/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/renderscript_source_output_dir/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/res/rs/debug" type="java-resource" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../presentation/build/generated/ap_generated_sources/debugAndroidTest/out" isTestSource="true" generated="true" />
@@ -137,10 +137,10 @@
       <library name="Gradle: kaptGeneratedClasses">
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../../presentation/build/tmp/kapt3/classes/debugUnitTest" />
-          <root url="file://$MODULE_DIR$/../../../presentation/build/tmp/kapt3/classes/release" />
-          <root url="file://$MODULE_DIR$/../../../presentation/build/tmp/kapt3/classes/debugAndroidTest" />
           <root url="file://$MODULE_DIR$/../../../presentation/build/tmp/kapt3/classes/releaseUnitTest" />
+          <root url="file://$MODULE_DIR$/../../../presentation/build/tmp/kapt3/classes/debugAndroidTest" />
           <root url="file://$MODULE_DIR$/../../../presentation/build/tmp/kapt3/classes/debug" />
+          <root url="file://$MODULE_DIR$/../../../presentation/build/tmp/kapt3/classes/release" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
