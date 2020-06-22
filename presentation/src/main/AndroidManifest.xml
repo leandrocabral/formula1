@@ -16,6 +16,9 @@
         <activity android:name=".MainActivity"
             android:screenOrientation="portrait"
             />
+        <activity android:name=".information.InfoActivity"
+            android:screenOrientation="portrait"
+            />
         <activity android:name=".splash.SplashScreenActivity"
             android:screenOrientation="portrait"
             >
