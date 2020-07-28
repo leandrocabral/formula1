@@ -6,12 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.leandroid.domain.model.Race
 import com.leandroid.formula1.R
 import com.leandroid.formula1.databinding.RaceFragmentBinding
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.schedulers.Schedulers
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class RaceFragment : Fragment() {
@@ -32,17 +31,13 @@ class RaceFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         viewModel.getRace()
-            .subscribeOn(Schedulers.io())
-            .observeOn(AndroidSchedulers.mainThread())
-            .doOnSuccess { races ->
-                mountList(races)
-            }.doOnError { error ->
 
-            }.subscribe()
-
+        viewModel.raceLiveData.observe(viewLifecycleOwner, Observer { champions ->
+            mountList(champions)
+        })
     }
 
-    fun mountList(races: List<Race>) {
+    private fun mountList(races: List<Race>) {
         binding.recRace.setHasFixedSize(true)
         val llm = LinearLayoutManager(context)
         llm.orientation = LinearLayoutManager.VERTICAL

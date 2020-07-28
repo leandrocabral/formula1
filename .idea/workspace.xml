@@ -6,11 +6,16 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97c7c177-2a04-47aa-8dc4-e15271d2d116" name="Default Changelist" comment="" />
+    <list default="true" id="97c7c177-2a04-47aa-8dc4-e15271d2d116" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +39,10 @@
       <list>
         <option value="Kotlin Object" />
         <option value="Kotlin File" />
-        <option value="valueResourceFile" />
-        <option value="resourceFile" />
         <option value="Kotlin Interface" />
         <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -60,12 +65,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="R9XN102GZVB" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-17T01:34:00.561Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="0054309527" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-28T18:14:39.100Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Nova pasta/sbd_smartorder" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -81,6 +86,9 @@
       <recent name="com.leandroid.formula1.widget.cardTableView" />
       <recent name="com.leandroid.data.network.service" />
       <recent name="com.leandroid.formula1.splash" />
+    </key>
+    <key name="android.template.-1412310993">
+      <recent name="com.leandroid.formula1.info" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Curso\AndroidStudioProjects\formula1\presentation\src\main\res\font" />
@@ -240,55 +248,59 @@
     </state>
     <state x="1906" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591639745470" />
     <state x="384" y="193" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1591839528035" />
-    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1592852866374">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1592852866374" />
     <state x="620" y="74" key="FileChooserDialogImpl" timestamp="1592352015020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591711386471" />
     <state x="620" y="74" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592352015020" />
-    <state width="1323" height="316" key="GridCell.Tab.0.bottom" timestamp="1592858422106">
+    <state width="660" height="320" key="GridCell.Tab.0.bottom" timestamp="1595964628481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938751" />
-    <state width="1323" height="316" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592858422106" />
-    <state width="1323" height="316" key="GridCell.Tab.0.center" timestamp="1592858422106">
+    <state width="660" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595964628481" />
+    <state width="660" height="320" key="GridCell.Tab.0.center" timestamp="1595964628481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938750" />
-    <state width="1323" height="316" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592858422106" />
-    <state width="1323" height="316" key="GridCell.Tab.0.left" timestamp="1592858422106">
+    <state width="660" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595964628481" />
+    <state width="660" height="320" key="GridCell.Tab.0.left" timestamp="1595964628481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938750" />
-    <state width="1323" height="316" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592858422106" />
-    <state width="1323" height="316" key="GridCell.Tab.0.right" timestamp="1592858422106">
+    <state width="660" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595964628481" />
+    <state width="660" height="320" key="GridCell.Tab.0.right" timestamp="1595964628481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938751" />
-    <state width="1323" height="316" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592858422106" />
-    <state width="1323" height="163" key="GridCell.Tab.1.bottom" timestamp="1592339991549">
+    <state width="660" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595964628481" />
+    <state width="660" height="320" key="GridCell.Tab.1.bottom" timestamp="1595964628482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="172" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594242270574" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555595004" />
-    <state width="1323" height="163" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592339991549" />
-    <state width="1323" height="163" key="GridCell.Tab.1.center" timestamp="1592339991548">
+    <state width="660" height="320" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595964628482" />
+    <state width="660" height="320" key="GridCell.Tab.1.center" timestamp="1595964628482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="172" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594242270574" />
     <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555595004" />
-    <state width="1323" height="163" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592339991548" />
-    <state width="1323" height="163" key="GridCell.Tab.1.left" timestamp="1592339991548">
+    <state width="660" height="320" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595964628482" />
+    <state width="660" height="320" key="GridCell.Tab.1.left" timestamp="1595964628482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="172" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594242270574" />
     <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555595003" />
-    <state width="1323" height="163" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592339991548" />
-    <state width="1323" height="163" key="GridCell.Tab.1.right" timestamp="1592339991549">
+    <state width="660" height="320" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595964628482" />
+    <state width="660" height="320" key="GridCell.Tab.1.right" timestamp="1595964628482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="172" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594242270574" />
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555595004" />
-    <state width="1323" height="163" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592339991549" />
+    <state width="660" height="320" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595964628482" />
     <state x="196" y="13" key="SettingsEditor" timestamp="1592251108314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -303,16 +315,32 @@
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591813589119" />
     <state x="92" y="92" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1592260916222" />
-    <state x="503" y="174" key="com.intellij.ide.util.TipDialog" timestamp="1592850507274">
+    <state x="503" y="174" key="com.intellij.ide.util.TipDialog" timestamp="1592250380558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="2073" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591363901106" />
     <state x="2073" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591791578215" />
-    <state x="503" y="174" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592850507274" />
-    <state x="467" y="83" width="673" height="563" key="find.popup" timestamp="1592856296001">
+    <state x="503" y="174" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592250380558" />
+    <state x="467" y="83" width="673" height="563" key="find.popup" timestamp="1595953681760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="2022" y="118" width="607" height="804" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555498434" />
-    <state x="467" y="83" width="673" height="563" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1592856296001" />
+    <state x="467" y="83" width="673" height="563" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1595953681760" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/info/InfoActivity.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/info/InfoActivity.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

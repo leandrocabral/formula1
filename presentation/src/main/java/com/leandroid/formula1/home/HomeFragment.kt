@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import com.leandroid.formula1.R
 import com.leandroid.formula1.databinding.HomeFragmentBinding
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -29,32 +30,28 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        viewModel.getPilot()
-            .subscribeOn(Schedulers.io())
-            .observeOn(AndroidSchedulers.mainThread())
-            .doOnSuccess { pilots ->
-                val pilotLeader = pilots.first()
-                binding.cardTop.setTitle(getString(R.string.title_widget_card_top))
-                binding.cardTop.setImage(pilotLeader.photo)
-                binding.cardTop.setName(
-                    resources.getString(
-                        R.string.name_widget_card_top,
-                        pilotLeader.name
-                    )
+        viewModel.getRace()
+
+        viewModel.pilotLiveData.observe(viewLifecycleOwner, Observer { pilots ->
+            val pilotLeader = pilots.first()
+            binding.cardTop.setTitle(getString(R.string.title_widget_card_top))
+            binding.cardTop.setImage(pilotLeader.photo)
+            binding.cardTop.setName(
+                resources.getString(
+                    R.string.name_widget_card_top,
+                    pilotLeader.name
                 )
+            )
 
-                binding.cardTop.setPoint(
-                    resources.getString(
-                        R.string.point_widget_card_top,
-                        pilotLeader.point, pilotLeader.team
-                    )
+            binding.cardTop.setPoint(
+                resources.getString(
+                    R.string.point_widget_card_top,
+                    pilotLeader.point, pilotLeader.team
                 )
+            )
 
-                val pilotsOther = pilots.filter { pilot -> pilot.id != 1 }
-                binding.cardTable.mountList(pilotsOther)
-
-            }.doOnError { error ->
-
-            }.subscribe()
+            val pilotsOther = pilots.filter { pilot -> pilot.id != 1 }
+            binding.cardTable.mountList(pilotsOther)
+        })
     }
 }

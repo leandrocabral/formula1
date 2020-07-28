@@ -17,14 +17,15 @@ import com.leandroid.data.local.store.LocalRaceStore
 import com.leandroid.data.network.InterceptorFactory
 import com.leandroid.data.network.OkHttpFactory
 import com.leandroid.data.network.RetrofitFactory
-import com.leandroid.data.network.about.AboutServiceImpl
 import com.leandroid.data.network.authentication.interceptor.AuthenticationInterceptor
 import com.leandroid.data.network.champion.ChampionServiceImpl
+import com.leandroid.data.network.info.InfoServiceImpl
 import com.leandroid.data.network.pilot.PilotServiceImpl
-import com.leandroid.data.network.privacyPolicy.PrivacyPolicyServiceImpl
 import com.leandroid.data.network.race.RaceServiceImpl
-import com.leandroid.data.network.service.*
-import com.leandroid.data.network.termOfUse.TermOfUseServiceImpl
+import com.leandroid.data.network.service.ChampionService
+import com.leandroid.data.network.service.InfoService
+import com.leandroid.data.network.service.PilotService
+import com.leandroid.data.network.service.RaceService
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
@@ -126,18 +127,9 @@ val dataModule = module {
 
     single { ChampionServiceImpl(get()) }
 
-    //region About
-    single<AboutService> {
-        AboutServiceImpl(get())
+    //region Info
+    single<InfoService> {
+        InfoServiceImpl(get())
     }
 
-    //region About
-    single<PrivacyPolicyService> {
-        PrivacyPolicyServiceImpl(get())
-    }
-
-    //region About
-    single<TermOfUseService> {
-        TermOfUseServiceImpl(get())
-    }
 }

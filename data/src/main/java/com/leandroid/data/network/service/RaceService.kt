@@ -4,5 +4,5 @@ import com.leandroid.domain.model.Race
 import io.reactivex.Single
 
 interface RaceService {
-    fun getRace(): Single<List<Race>>
+    suspend fun getRace(): List<Race>?
 }

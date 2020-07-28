@@ -10,7 +10,7 @@
         android:padding="16dp">
 
         <com.leandroid.formula1.widget.CommomButton
-            android:id="@+id/button_about"
+            android:id="@+id/btn_about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -19,22 +19,22 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.leandroid.formula1.widget.CommomButton
-            android:id="@+id/button_term_of_use"
+            android:id="@+id/btn_term_of_use"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             app:commom_button_description="@string/title_term_of_use_more_commom_button"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_about" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_about" />
 
         <com.leandroid.formula1.widget.CommomButton
-            android:id="@+id/button_privacy_policy"
+            android:id="@+id/btn_policy_privacidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             app:commom_button_description="@string/title_policy_privacidad_commom_button"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_term_of_use" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_term_of_use" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

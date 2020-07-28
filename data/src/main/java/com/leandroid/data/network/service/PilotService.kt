@@ -4,5 +4,5 @@ import com.leandroid.domain.model.Pilot
 import io.reactivex.Single
 
 interface PilotService {
-    fun getPilot(): Single<List<Pilot>>
+    suspend fun getPilot(): List<Pilot>?
 }
