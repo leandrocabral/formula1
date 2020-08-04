@@ -11,10 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c7c177-2a04-47aa-8dc4-e15271d2d116" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/view/presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/view/presentation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/PresentationModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/PresentationModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/race/RaceViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/race/RaceViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,33 +83,36 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Nova pasta/sbd_smartorder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/presentation/src/test/java/com/leandroid/formula1" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.835672860">
-      <recent name="com.leandroid.formula1.race" />
-    </key>
-    <key name="android.template.-1390269848">
-      <recent name="com.leandroid.formula1" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.leandroid.formula1.widget.cardTableView" />
       <recent name="com.leandroid.data.network.service" />
       <recent name="com.leandroid.formula1.splash" />
     </key>
-    <key name="android.template.-1412310993">
-      <recent name="com.leandroid.formula1.info" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Curso\AndroidStudioProjects\formula1\presentation\src\test\java\com\leandroid\formula1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Curso\AndroidStudioProjects\formula1\presentation\src\main\res\font" />
       <recent name="C:\Users\Curso\AndroidStudioProjects\formula1\data\src\main\java\com\leandroid\data" />
       <recent name="C:\Users\Curso\AndroidStudioProjects\formula1\presentation\src\main\java\com\leandroid\formula1" />
     </key>
+    <key name="android.template.-1390269848">
+      <recent name="com.leandroid.formula1" />
+    </key>
+    <key name="android.template.835672860">
+      <recent name="com.leandroid.formula1.race" />
+    </key>
+    <key name="android.template.-1412310993">
+      <recent name="com.leandroid.formula1.info" />
+    </key>
   </component>
-  <component name="RunManager" selected="Android App.View">
+  <component name="RunManager" selected="JUnit.RaceViewModelTest.when viewModel getRace get success then set raceLiveData">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -155,7 +171,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="presentation" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -206,6 +222,27 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RaceViewModelTest.when viewModel getRace get success then set raceLiveData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="presentation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leandroid.formula1.presentation.race.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leandroid.formula1.presentation.race" />
+      <option name="MAIN_CLASS_NAME" value="com.leandroid.formula1.presentation.race.RaceViewModelTest" />
+      <option name="METHOD_NAME" value="when viewModel getRace get success then set raceLiveData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RaceViewModelTest.when viewModel getRace get success then set raceLiveData" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -248,59 +285,59 @@
     </state>
     <state x="1906" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591639745470" />
     <state x="384" y="193" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1591839528035" />
-    <state x="620" y="74" key="FileChooserDialogImpl" timestamp="1592352015020">
+    <state x="620" y="74" key="FileChooserDialogImpl" timestamp="1596143615040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591711386471" />
-    <state x="620" y="74" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592352015020" />
-    <state width="660" height="320" key="GridCell.Tab.0.bottom" timestamp="1595964628481">
+    <state x="620" y="74" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596143615040" />
+    <state width="1003" height="279" key="GridCell.Tab.0.bottom" timestamp="1596499284426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938751" />
-    <state width="660" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595964628481" />
-    <state width="660" height="320" key="GridCell.Tab.0.center" timestamp="1595964628481">
+    <state width="1003" height="279" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596499284426" />
+    <state width="1003" height="279" key="GridCell.Tab.0.center" timestamp="1596499284425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938750" />
-    <state width="660" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595964628481" />
-    <state width="660" height="320" key="GridCell.Tab.0.left" timestamp="1595964628481">
+    <state width="1003" height="279" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596499284425" />
+    <state width="1003" height="279" key="GridCell.Tab.0.left" timestamp="1596499284425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938750" />
-    <state width="660" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595964628481" />
-    <state width="660" height="320" key="GridCell.Tab.0.right" timestamp="1595964628481">
+    <state width="1003" height="279" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596499284425" />
+    <state width="1003" height="279" key="GridCell.Tab.0.right" timestamp="1596499284426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938751" />
-    <state width="660" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595964628481" />
-    <state width="660" height="320" key="GridCell.Tab.1.bottom" timestamp="1595964628482">
+    <state width="1003" height="279" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596499284426" />
+    <state width="1003" height="279" key="GridCell.Tab.1.bottom" timestamp="1596499284426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="172" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594242270574" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555595004" />
-    <state width="660" height="320" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595964628482" />
-    <state width="660" height="320" key="GridCell.Tab.1.center" timestamp="1595964628482">
+    <state width="1003" height="279" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596499284426" />
+    <state width="1003" height="279" key="GridCell.Tab.1.center" timestamp="1596499284426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="172" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594242270574" />
     <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555595004" />
-    <state width="660" height="320" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595964628482" />
-    <state width="660" height="320" key="GridCell.Tab.1.left" timestamp="1595964628482">
+    <state width="1003" height="279" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596499284426" />
+    <state width="1003" height="279" key="GridCell.Tab.1.left" timestamp="1596499284426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="172" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594242270574" />
     <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555595003" />
-    <state width="660" height="320" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595964628482" />
-    <state width="660" height="320" key="GridCell.Tab.1.right" timestamp="1595964628482">
+    <state width="1003" height="279" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596499284426" />
+    <state width="1003" height="279" key="GridCell.Tab.1.right" timestamp="1596499284426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="172" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594242270574" />
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555595004" />
-    <state width="660" height="320" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595964628482" />
+    <state width="1003" height="279" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596499284426" />
     <state x="196" y="13" key="SettingsEditor" timestamp="1592251108314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -315,12 +352,12 @@
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591813589119" />
     <state x="92" y="92" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1592260916222" />
-    <state x="503" y="174" key="com.intellij.ide.util.TipDialog" timestamp="1592250380558">
+    <state x="503" y="174" key="com.intellij.ide.util.TipDialog" timestamp="1596496723634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="2073" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591363901106" />
     <state x="2073" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591791578215" />
-    <state x="503" y="174" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592250380558" />
+    <state x="503" y="174" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596496723634" />
     <state x="467" y="83" width="673" height="563" key="find.popup" timestamp="1595953681760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

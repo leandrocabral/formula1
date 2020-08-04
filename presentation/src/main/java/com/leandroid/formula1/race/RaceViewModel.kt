@@ -1,20 +1,18 @@
 package com.leandroid.formula1.race
 
-import android.app.Application
-import androidx.lifecycle.AndroidViewModel
+
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.leandroid.data.network.service.RaceService
-import com.leandroid.domain.model.Champion
+
 
 import com.leandroid.domain.model.Race
-import io.reactivex.Single
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class RaceViewModel(application: Application, private var remoteRaceService: RaceService) :
-    AndroidViewModel(application) {
+class RaceViewModel(private var remoteRaceService: RaceService) :  ViewModel() {
 
     val raceLiveData = MutableLiveData<List<Race>>()
 

@@ -11,7 +11,7 @@ import org.koin.dsl.module
 
 val presentationModule = module {
     viewModel { HomeViewModel(androidApplication(),get()) }
-    viewModel { RaceViewModel(androidApplication(),get()) }
+    viewModel { RaceViewModel(get()) }
     viewModel { ChampionViewModel(androidApplication(),get()) }
     viewModel { InfoViewModel(androidApplication(),get()) }
 }
