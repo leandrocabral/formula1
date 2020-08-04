@@ -7,7 +7,6 @@ import com.leandroid.data.network.service.RaceService
 import com.leandroid.domain.model.Race
 import com.leandroid.formula1.CoroutineTestRule
 import com.leandroid.formula1.race.RaceViewModel
-import kotlinx.coroutines.*
 import kotlinx.coroutines.test.*
 import org.junit.*
 import org.junit.runner.RunWith
@@ -45,7 +44,7 @@ class RaceViewModelTest {
         val races = listOf(
             Race(1, "Brasil", "flag")
         )
-        val resultSuccess = MockService(races)
+        val resultSuccess = RaceMockService(races)
         viewModel = RaceViewModel(resultSuccess)
         viewModel.raceLiveData.observeForever(raceLiveDataObserver)
 
@@ -58,7 +57,7 @@ class RaceViewModelTest {
 }
 
 
-class MockService(private val races: List<Race>?) : RaceService {
+class RaceMockService(private val races: List<Race>?) : RaceService {
     override suspend fun getRace(): List<Race>? {
         return races
     }

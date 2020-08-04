@@ -3,6 +3,7 @@ package com.leandroid.formula1.champion
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.leandroid.data.network.service.ChampionService
 import com.leandroid.data.network.service.RaceService
 import com.leandroid.domain.model.Champion
@@ -14,9 +15,8 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class ChampionViewModel(
-    application: Application,
     private var remoteChampionService: ChampionService
-) : AndroidViewModel(application) {
+) : ViewModel(){
 
     val championsLiveData = MutableLiveData<List<Champion>>()
 
